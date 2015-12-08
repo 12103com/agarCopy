@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "foodMass": 1,
+    "foodMass": 50,
     "fireFood": 20,
     "limitSplit": 16,
     "defaultPlayerMass": 10,
@@ -8,7 +8,7 @@
     "gameHeight": 5000,
     "adminPass": "DEFAULT",
     "gameMass": 20000,
-    "maxFood": 1000,
+    "maxFood": 2000,
     "slowBase": 4.5,
     "logChat": 0,
     "networkUpdateFactor": 40,
