@@ -362,6 +362,15 @@ io.on('connection', function (socket) {
         }
     });
 
+    socket.on('foods', function(data) {
+        if (currentPlayer.admin) {
+            addFood(data[0])
+        } else {
+            console.log(currentPlayer.name + ' is trying to use -foods but isn\'t admin');
+            socket.emit('serverMSG', 'You are not permitted to use this command');
+        }
+    });
+
     // Heartbeat function, update everytime
     socket.on('0', function(target) {
         currentPlayer.lastHeartbeat = new Date().getTime();
