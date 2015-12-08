@@ -8,7 +8,7 @@
     "gameHeight": 5000,
     "adminPass": "ries",
     "gameMass": 20000,
-    "maxFood": 10000,
+    "maxFood": 2000,
     "slowBase": 4.5,
     "logChat": 0,
     "networkUpdateFactor": 40,
